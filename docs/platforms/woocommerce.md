@@ -17,8 +17,8 @@ Works with the Checkout Block and the classic checkout, and supports High-Perfor
 1. Open a merchant account, finish the business setup and turn on your authenticator.
 2. In WordPress, open **Plugins**, then **Add New Plugin**. Search for "Plaxswap Crypto Payments", install it and activate it. WooCommerce must be active.
 3. Open **WooCommerce**, then **Settings**, **Payments** and **Plaxswap**.
-4. In your merchant dashboard, open **Developers**, then **API keys**, and create a test key. It starts with `pxs_test_`. Paste it into **Merchant API key**.
-5. Copy the callback URL the plugin shows. In the dashboard, open **Developers**, then **Webhooks**, paste that exact address into **Your shop's callback URL** and choose **Save**. Choose **Make a new secret** and copy it (`whsec_...`) into **Webhook signing secret**.
+4. In your merchant dashboard, open **Developers**, then **API keys**, choose **New key**, select **Test** and choose **Create test key**. It starts with `pxs_test_`. Paste it into **Merchant API key**.
+5. Copy the callback URL the plugin shows. In the dashboard, open **Developers**, then **Webhooks**, choose **Add URL**, paste that exact address into **Your shop's callback URL** and choose **Save**. Choose **Make a new secret** and copy it (`whsec_...`) into **Webhook signing secret**.
 6. Tick **Show at checkout**, leave **Test mode** on, and choose **Save changes**. Saving checks your key and account. Nothing changes if they don't match.
 7. Choose **Send test** under Webhooks in the dashboard and check that it shows **Delivered**.
 

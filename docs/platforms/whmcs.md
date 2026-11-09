@@ -22,8 +22,8 @@ The module is waiting for approval on the WHMCS Marketplace. Until then, downloa
 ## Connect your Plaxswap account
 
 3. Sign in to the [merchant dashboard](https://plaxswap.com/merchants/dashboard), finish your business profile and set up your authenticator.
-4. Open **Developers**, then **API keys**, and make a test key (`pxs_test_...`).
-5. Open **Developers**, then **Webhooks**, and set **Your shop's callback URL** to:
+4. Open **Developers**, then **API keys**, choose **New key**, select **Test** and choose **Create test key** (`pxs_test_...`).
+5. Open **Developers**, then **Webhooks**, choose **Add URL** and set **Your shop's callback URL** to:
 
    ```
    https://YOUR-WHMCS-ADDRESS/modules/gateways/callback/plaxswap.php

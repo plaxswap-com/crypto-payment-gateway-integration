@@ -12,7 +12,7 @@ This is different from the Plaxswap Crypto Swaps add-on, which adds a swap page 
 ## Connect your Plaxswap account
 
 3. Sign in to the [merchant dashboard](https://plaxswap.com/merchants/dashboard) with Google or Telegram. Complete your business profile and set up your authenticator.
-4. Open **Developers**, then **API keys**, and make a new key. Select **Test payments** and name it XenForo. It starts with `pxs_test_`.
+4. Open **Developers**, then **API keys**, and choose **New key**. Select **Test**, name it XenForo and choose **Create test key**. It starts with `pxs_test_` and is shown only once.
 5. Open **Developers**, then **Webhooks**, choose **Make a new secret** and copy it (`whsec_...`). A new secret replaces the old one for all your integrations.
 6. In the Admin CP, open **Setup**, then **Payment profiles**, **Add payment profile**, and choose **Plaxswap Crypto Payment Gateway**. Paste the API key and the signing secret, then save.
 7. Reopen the saved profile. It shows the exact webhook URL for this forum and profile, which looks like:
@@ -21,7 +21,7 @@ This is different from the Plaxswap Crypto Swaps add-on, which adds a swap page 
    https://forum.example/payment_callback.php?_xfProvider=plaxswap_gateway&profile_id=1
    ```
 
-   Copy it into **Your shop's callback URL** in the merchant dashboard and choose **Save**.
+   In the merchant dashboard, open **Developers**, then **Webhooks**, choose **Add URL**, paste it into **Your shop's callback URL** and choose **Save**.
 8. Choose **Send test** under Webhooks and check that it shows Delivered.
 
 ## Test, then go live
