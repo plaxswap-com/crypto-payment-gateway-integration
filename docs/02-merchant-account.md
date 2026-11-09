@@ -21,8 +21,8 @@ Plaxswap can ask for business details, and can pause withdrawals until they are 
 
 In the merchant dashboard, open **Developers**:
 
-- Under **API keys**, make a new key. Pick **Test payments** or **Live payments**, and name it after the site that uses it.
-- Under **Webhooks**, enter your callback URL (the address of your webhook handler) in **Your shop's callback URL** and choose **Save**. Then choose **Make a new secret** and copy the signing secret.
+- Under **API keys**, choose **New key**. Pick **Test** or **Live**, name it after the site that uses it, and choose **Create test key** or **Create live key**.
+- Under **Webhooks**, choose **Add URL**, enter your callback URL (the address of your webhook handler) in **Your shop's callback URL** and choose **Save**. Then choose **Make a new secret** and copy the signing secret.
 - Choose **Send test** and check that the delivery shows as Delivered.
 
 Creating keys and secrets asks for your authenticator code.

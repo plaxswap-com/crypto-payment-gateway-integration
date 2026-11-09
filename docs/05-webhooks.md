@@ -4,7 +4,7 @@ When a payment changes, Plaxswap sends a `POST` to your callback URL with the wh
 
 ## Set your callback URL
 
-In the merchant dashboard, open **Developers**, then **Webhooks**. Enter the public HTTPS address of your handler, for example `https://shop.example/plaxswap-webhook`, in **Your shop's callback URL** and choose **Save**. Choose **Make a new secret** and copy the signing secret (`whsec_...`); it is shown only once. You can also set the URL with `PATCH /api/v1/merchant`.
+In the merchant dashboard, open **Developers**, then **Webhooks**, and choose **Add URL**. Enter the public HTTPS address of your handler, for example `https://shop.example/plaxswap-webhook`, in **Your shop's callback URL** and choose **Save**. Choose **Make a new secret** and copy the signing secret (`whsec_...`); it is shown only once. You can also set the URL with `PATCH /api/v1/merchant`.
 
 The address must be reachable from the internet. A site on `localhost`, behind a login wall, in maintenance mode, or behind a firewall or bot challenge that blocks this path won't receive webhooks.
 
