@@ -1,0 +1,2 @@
+# Keep the order store private on Apache hosts.
+RedirectMatch 404 ^/data/
