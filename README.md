@@ -1,5 +1,7 @@
 # Accept Bitcoin and crypto payments on your website
 
+Payments API reference on the Plaxswap site: https://plaxswap.com/developers/payments
+
 This repository shows how to add the [Plaxswap](https://plaxswap.com) crypto payment gateway to a website, shop, forum or billing system. Your customer pays in Bitcoin, USDT, Ether or another supported coin on the Plaxswap checkout, and your site is told when the payment has settled.
 
 It has step-by-step guides, the full payment workflow, webhook checks and working code in Node.js, PHP, Python and curl.
